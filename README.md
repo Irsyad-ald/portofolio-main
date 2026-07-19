@@ -1,7 +1,3 @@
-Tentu, ini adalah draf README.md yang telah diperbarui agar lebih profesional, relevan dengan isi proyek Anda saat ini (yang menggunakan teknologi seperti Three.js/Rapier, Framer Motion, dan ShinyText), serta menarik bagi recruiter atau kolaborator.
-
-Silakan ganti seluruh isi README.md lama Anda dengan konten di bawah ini:
-
 🚀 Personal Portfolio — Irsyad
 Selamat datang di repository portofolio pribadi saya! Website ini dirancang sebagai platform interaktif untuk menampilkan perjalanan profesional, keahlian teknis, dan proyek-proyek inovatif yang telah saya kembangkan.
 
