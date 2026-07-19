@@ -1,61 +1,74 @@
-# Portofolio Web — [Faris Edrik P / rissss21]
+Tentu, ini adalah draf README.md yang telah diperbarui agar lebih profesional, relevan dengan isi proyek Anda saat ini (yang menggunakan teknologi seperti Three.js/Rapier, Framer Motion, dan ShinyText), serta menarik bagi recruiter atau kolaborator.
 
-Selamat datang di portofolio web pribadi saya! 🌐  
-Dibuat dengan React + Vite, ini adalah showcase dari project, skill, dan karya yang ingin saya bagikan.
+Silakan ganti seluruh isi README.md lama Anda dengan konten di bawah ini:
 
-##  Struktur Project
+🚀 Personal Portfolio — Irsyad
+Selamat datang di repository portofolio pribadi saya! Website ini dirancang sebagai platform interaktif untuk menampilkan perjalanan profesional, keahlian teknis, dan proyek-proyek inovatif yang telah saya kembangkan.
 
-- `public/` — file statis (favicon, assets, dsb.)  
-- `src/` — code utama React (komponen, utilitas, dsb.)  
-- `index.html` — entry point halaman web  
-- `package.json` & `package-lock.json` — manajemen dependencies dan script  
-- `vite.config.js` — konfigurasi build dan dev server Vite  
-- `eslint.config.js` — aturan linting agar kodenya tetap bersih dan konsisten  
+🛠 Tech Stack
+Website ini dibangun menggunakan teknologi web modern untuk performa maksimal dan pengalaman pengguna yang imersif:
 
-##  Fitur Utama
+Framework: React.js + Vite
 
-- Dibangun dengan **React + Vite** — ringan, cepat reload, dan performa build optimal  
-- **ESLint** telah terkonfigurasi agar coding style tetap rapi  
-- Struktur modular dan siap dikembangkan—bisa ditambahkan halaman “About”, “Projects”, dsb.
+Styling: Tailwind CSS
 
-##  Cara Jalankan
+3D & Animation: Three.js + React Three Fiber + React Three Rapier
 
-1. Clone repository ini:
-```bash
-git clone https://github.com/rissss21/portofolio.git
-cd portofolio
-````
+UI Components: Framer Motion, Meshline, dan Custom Animations
 
-2. Install dependencies:
-```bash
+Deployment: Vercel
+
+📂 Struktur Project
+Plaintext
+├── public/           # Aset statis (3D model .glb, gambar, dsb.)
+├── src/
+│   ├── components/   # Modul komponen (Aurora, Lanyard, ShinyText, dll.)
+│   ├── assets/       # Aset pendukung proyek
+│   ├── data.js       # Data dinamis (Tools, Proyek, Sertifikat)
+│   └── App.jsx       # Entry point utama aplikasi
+├── vite.config.js    # Konfigurasi build Vite
+└── package.json      # Dependencies dan script proyek
+🚀 Cara Menjalankan Secara Lokal
+Clone repository ini:
+
+Bash
+git clone https://github.com/Irsyad-ald/portofolio-main.git
+cd portofolio-main
+Install dependencies:
+
+Bash
 npm install
-````
+Jalankan server lokal:
 
-3. Jalankan server lokal dengan hot reload:
-```bash
+Bash
 npm run dev
-````
+Build untuk production:
 
-4. Buat versi production:
-```bash
+Bash
 npm run build
-````
+🌐 Live Demo
+Lihat hasil portofolio saya yang sudah dideploy secara live:
+🔗 Klik di sini untuk melihat website
 
-## &#x20;Quick Preview
+👤 Tentang Saya
+Hai, saya Irsyad. Seorang pengembang yang berfokus pada integrasi teknologi web mutakhir dengan desain antarmuka yang estetis. Saya memiliki ketertarikan mendalam pada pengembangan aplikasi mobile, IoT, dan eksperimen grafis 3D di web.
 
-Jika sudah di-deploy (contoh: GitHub Pages, Netlify, Vercel), kamu bisa tambahkan link deploy di sini, misalnya:
-[🔗 Lihat versi live](https://username.github.io/portofolio/)
+GitHub: Irsyad-ald
 
-## Tentang Saya
+Email: irald0357@gmail.com
 
-Hai, saya Faris Edrik P (username GitHub: `rissss21`).
-Saya seorang Developer yang suka bikin aplikasi web ringan dengan tampilan modern dan performa tinggi. Scroll aja di project saya, dan jangan sungkan untuk reach out kalau ada pertanyaan!
+Dibuat dengan sepenuh hati dan kode. 💻✨
 
-* **Email:** [email\_farisedrik21@gmail.com](mailto:email_farisedrik21@gmail.com)
-* **LinkedIn:** [linkedin.com/in/farisedp](https://www.linkedin.com/in/farisedp/)
-* **Instagram:** @farisedrikprayoga
+Tips Tambahan untuk README Anda:
+File README.md: Pastikan Anda menyimpannya dengan format Markdown (.md).
 
----
+Gambar: Jika Anda ingin menambahkan screenshot website, Anda bisa menaruh gambarnya di folder public/, lalu tambahkan baris ini di bagian bawah README.md:
 
+Markdown
+## 📸 Screenshot
+![Preview Website](/preview.png)
+Update Username: Saya telah menyesuaikan link dan profil berdasarkan data yang Anda gunakan di terminal (Irsyad-ald), sehingga sekarang sudah sinkron dengan repository baru Anda.
 
-[1]: https://github.com/rissss21/portofolio "GitHub - rissss21/portofolio"
+git add .
+git commit -m "Fix asset loading for production"
+git push origin main
