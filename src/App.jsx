@@ -75,7 +75,7 @@ function App() {
     <>
       <div className="absolute top-0 left-0 w-full h-full -z-10 ">
         <Aurora
-          colorStops={["#ffffff", "#D90000", "#000000"]}
+          colorStops={["#00eeff", "#D90000", "#000000"]}
           blend={0.7}
           amplitude={0.3}
           speed={1}
