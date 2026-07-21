@@ -71,13 +71,13 @@ function App() {
 
   return (
     <>
-      {/* Aurora Background bernuansa Merah Elegan & Gelap */}
+      {/* Aurora Background dikembalikan ke warna semula */}
       <div className="absolute top-0 left-0 w-full h-full -z-10 ">
         <Aurora
-          colorStops={["#ff1e38", "#590d22", "#0a0a0c"]}
-          blend={0.7}
-          amplitude={0.3}
-          speed={1}
+          colorStops={["#577870", "#1F97A6", "#127B99"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
         />
       </div>
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -129,10 +129,10 @@ function App() {
           </div>
         </div>
 
-        {/* Tentang (About Me) dengan Border & Glow Merah */}
-        <div className="mt-15 mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-red-500/40 shadow-[0_0_30px_rgba(239,68,68,0.3)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6" id="about">
+        {/* Tentang (About Me) */}
+        <div className="mt-15 mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-violet-500/40 shadow-[0_0_30px_rgba(168,85,247,0.4)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6" id="about">
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 pt-0 px-8" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-red-500/30">
+            <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-violet-500/30">
               <div className="flex-1 text-left">
                 <h1 className="text-3xl md:text-4xl font-bold text-white mb-5">
                   About Me
@@ -149,19 +149,19 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-red-500">+</span>
+                      20<span className="text-violet-500">+</span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-red-500">+</span>
+                      3<span className="text-violet-500">+</span>
                     </h1>
                     <p>Years of Experience</p>
                   </div>
                   <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3.81<span className="text-red-500">/4.00</span>
+                      3.81<span className="text-violet-500">/4.00</span>
                     </h1>
                     <p>GPA</p>
                   </div>
@@ -171,7 +171,7 @@ function App() {
                   text="Working with heart, creating with mind."
                   disabled={false}
                   speed={3}
-                  className="text-sm md:text-base text-red-400"
+                  className="text-sm md:text-base text-violet-400"
                 />
               </div>
             </div>
@@ -185,7 +185,7 @@ function App() {
         {/* Tools & Technologies */}
         <div className="tools mt-32">
           <h1
-            className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-rose-400 text-center"
+            className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-emerald-400 text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
@@ -224,7 +224,7 @@ function App() {
         {/* Project */}
         <div className="proyek mt-32 py-10" id="project" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"></div>
         <h1
-          className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-rose-400 text-center"
+          className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-emerald-400 text-center"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -246,7 +246,7 @@ function App() {
         {/* Certificates */}
         <div className="sertifikat mt-32 py-10" id="certificates" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <h1
-            className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-rose-400 text-center"
+            className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-emerald-400 text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
@@ -268,7 +268,7 @@ function App() {
         {/* Contact & Chat */}
         <div className="kontak mt-32 sm:p-10 p-0 relative z-10" id="contact">
           <h1
-            className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-rose-400 text-center"
+            className="text-4xl md:text-5xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-emerald-400 text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="true"
@@ -298,7 +298,7 @@ function App() {
             </div>
 
             <div className="flex-1 relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-red-600/20 to-rose-600/20 rounded-3xl blur-xl transition duration-1000"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-violet-600/20 to-emerald-600/20 rounded-3xl blur-xl transition duration-1000"></div>
 
               <form
                 action="https://formsubmit.co/irald0357@gmail.com"
@@ -319,7 +319,7 @@ function App() {
                       type="text"
                       name="Name"
                       placeholder="e.g. John Doe"
-                      className="w-full bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 text-white placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-red-500/50 focus:border-red-500 transition-all duration-300"
+                      className="w-full bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 text-white placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-violet-500/50 focus:border-violet-500 transition-all duration-300"
                       required
                     />
                   </div>
@@ -330,7 +330,7 @@ function App() {
                       type="email"
                       name="Email"
                       placeholder="e.g. hello@example.com"
-                      className="w-full bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 text-white placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-red-500/50 focus:border-red-500 transition-all duration-300"
+                      className="w-full bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 text-white placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-violet-500/50 focus:border-violet-500 transition-all duration-300"
                       required
                     />
                   </div>
@@ -342,7 +342,7 @@ function App() {
                       id="message"
                       rows="5"
                       placeholder="How can I help you?"
-                      className="w-full h-full bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 text-white placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-red-500/50 focus:border-red-500 transition-all duration-300 resize-none"
+                      className="w-full h-full bg-zinc-900/50 border border-zinc-800 rounded-xl p-4 text-white placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-violet-500/50 focus:border-violet-500 transition-all duration-300 resize-none"
                       required
                     ></textarea>
                   </div>
@@ -351,7 +351,7 @@ function App() {
                     type="submit"
                     className="relative w-full overflow-hidden rounded-xl p-[1px] cursor-pointer group"
                   >
-                    <span className="absolute inset-0 bg-gradient-to-r from-red-500 via-rose-500 to-red-500 opacity-70 group-hover:opacity-100 transition-opacity duration-500"></span>
+                    <span className="absolute inset-0 bg-gradient-to-r from-violet-500 via-emerald-500 to-violet-500 opacity-70 group-hover:opacity-100 transition-opacity duration-500"></span>
                     <div className="relative flex items-center justify-center bg-zinc-950 w-full h-full px-6 py-4 rounded-xl group-hover:bg-zinc-900 transition-colors">
                       <ShinyText text="Send Message" disabled={false} speed={3} className="font-bold tracking-wide text-white" />
                     </div>
